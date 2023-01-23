@@ -1,4 +1,14 @@
-import sys
-a =[1,2,3,4,5,6,7,8,9]
-sum1 = sum(a[1:3])
-print(sum1)
+import sys,math
+
+a= [[0,0]for i in range(4)]
+
+a[0][0] =10
+a[0][1] = 1
+
+n = 5
+
+b = [[0 for i in range(n+1)]for j in range(n+1)]
+c = [1,2,3,4,5]
+b[1] = c
+print(b)
+
